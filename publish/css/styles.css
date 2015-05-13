@@ -4,30 +4,14 @@ html, body {
 	padding: 0;
 }
 
-a:link, a:visited {
-	text-decoration: none;
-}
-
-header {
-	padding: 10px;
-	background-color: #036;
-}
-
-#logo {
-	font-size: 30px;
-	color: white;
-}
-
 /* Footer styles */
 
 footer {
-	padding: 40px 0 10px 0;
-	color: #777; /* Gray */
 	font-size: 11px;
 	text-align: center;
 }
 
-.edu_disclaimer {
+.edu-disclaimer {
 	color: red;
 	font-size: 13px;
 }

@@ -4,20 +4,50 @@ html, body {
 	padding: 0;
 }
 
+.main-wrapper {
+	position: relative;
+	min-height: 100%;
+}
+
+/* Make room for the footer */
+.content-container {
+	padding: 0 0 90px 0;
+}
+
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+}
+
+section {
+	padding: 0 20px;
+}
+
 /* Footer styles */
 
+/* Should stick to the bottom of the page if the content does not fill the page */
+/* Otherwise, should be at bottom of content and user will have to scroll to see it */
 footer {
-	font-size: 11px;
-	text-align: center;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 80px;
+	background: #626262; /* Dark Grey */
+	color: #F1F1F1; /* Light Grey */
 }
 
-.edu-disclaimer {
+/* Center the footer text vertically */
+footer div {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 100%;
+}
+
+footer p {
+	margin-top: 10px;
+}
+
+.text-danger {
 	color: red;
-	font-size: 13px;
-}
-
-/* Media query */
-
-@media only screen and (max-width: 855px) {
-
 }

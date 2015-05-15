@@ -9,6 +9,23 @@ html, body {
 	min-height: 100%;
 }
 
+/* Navbar Styles - need a taller navbar because of logo */
+
+.navbar-brand {
+    height: 90px;
+}
+
+.navbar-toggle {
+	margin-top: 26px;
+	margin-bottom: 26px;
+}
+
+.navbar-nav li a {
+	height: 90px;
+	line-height: 90px;
+	padding-top: 0;
+}
+
 /* Make room for the footer */
 .content-container {
 	padding: 0 0 90px 0;
@@ -50,4 +67,14 @@ footer p {
 
 .text-danger {
 	color: red;
+}
+
+/* Media Queries */
+
+@media (max-width: 767px) {
+	/* Adjust navbar item height now that the items are no longer in the navbar */
+	.navbar-nav li a {
+		height: 70px;
+		line-height: 70px;
+	}
 }

@@ -21,64 +21,14 @@
 <body>
 <div class="main-wrapper">
 	<header>
-		<!-- Main Navigation -->
-		<nav class="navbar navbar-inverse navbar-fixed-top">
-			<div class="container-fluid">
-				<div class="navbar-header">
-					<!-- Mobile Navigation "Hamburger" button -->
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav">
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-
-					<!-- Site Logo -->
-					<a class="navbar-brand" href="index.html">
-						<img class="img-responsive" src="images/cityPlanetariumLogo.png" alt="City Planetarium Logo" />
-					</a>
-				</div>
-				<div class="collapse navbar-collapse" id="main-nav">
-					<ul class="nav navbar-nav navbar-right">
-						<li><a href="about_us.html">About Us</a></li>
-						<li><a href="exhibits.html">Exhibits</a></li>
-						<li><a href="stargazers_club.html">Stargazer's Club</a></li>
-						<li><a href="contact_us.html">Contact Us</a></li>
-					</ul>
-				</div>
-			</div>
-		</nav>
+		<?php include 'header.php' ?>
 	</header>
 	<div class="container-fluid content-container">
 		<div class="parallax-window row" data-parallax="scroll" data-image-src="images/banner.jpg"></div>
 
 		<div class="row content-row">
 			<div class="col-sm-3">
-				<h3>Hours</h3>
-
-				<hr />
-
-				<p>9:00 am - 5:00 pm</p>
-				<p>MON-FRI</p>
-				<p>10:00 am - 8:00 pm</p>
-				<p>SAT-SUN</p>
-
-				<hr />
-
-				<h3>Today's Shows</h3>
-
-				<hr />
-
-				<h4>NASA's History</h4>
-				<p>10:00 pm, 1:00 pm</p>
-
-				<h4>To The Moon And Back</h4>
-				<p>12:30 pm, 2:00 pm</p>
-
-				<h4>Jupiter</h4>
-				<p>2:30 pm</p>
-
-				<h4>Summer Constellations</h4>
-				<p>1:00 pm, 4:00 pm</p>
+				<?php include 'sidebar.php' ?>
 			</div>
 			<div class="col-sm-8 content-col">
 				<div class="clearfix">
@@ -105,7 +55,7 @@
 					<div class="col-sm-8">
 						<h4>Pluto</h4>
 						<p>New Horizons has launched and is nearing its destination, Pluto. Come learn all about the probe, its mission, and the mysterious dwarf-planet.</p>
-						<p>Learn more about <a href="#">New Horizons</a>.</p>
+						<p>Learn more about <a href="exhibits.php">New Horizons</a>.</p>
 					</div>
 				</div>
 				<div class="clearfix">
@@ -139,10 +89,7 @@
 		</div>
 	</div>
 	<footer>
-		<div class="container-fluid text-center">
-			<p class="small">Copyright &copy;2015 Laurie Fumarolo. All Rights Reserved.</p>
-			<h5 class="text-danger">NOT A REAL BUSINESS. FOR EDUCATIONAL PURPOSES ONLY.</h5>
-		</div>
+		<?php include 'footer.php' ?>
 	</footer>
 </div>
 </body>

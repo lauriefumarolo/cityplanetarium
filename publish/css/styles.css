@@ -28,16 +28,45 @@ html, body {
 
 /* Make room for the footer */
 .content-container {
-	padding: 0 0 90px 0;
+	padding-bottom: 90px;
 }
 
 .parallax-window {
-    min-height: 400px;
+    min-height: 800px;
     background: transparent;
 }
 
-section {
-	padding: 0 20px;
+.content-row {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+h2 {
+	margin-bottom: 30px;
+}
+
+.img-responsive {
+	margin-bottom: 20px;
+}
+
+.price {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	font-weight: bold;
+}
+
+.btn {
+	margin-bottom: 15px;
+}
+
+/* HR and Vertical Divider Styles */
+
+.content-col {
+	border-left: 1px dotted #AAA;
+}
+
+hr {
+	border-top: 1px dotted #AAA;
 }
 
 /* Footer styles */
@@ -49,7 +78,7 @@ footer {
 	bottom: 0;
 	width: 100%;
 	height: 80px;
-	background: #626262; /* Dark Grey */
+	background: black;
 	color: #F1F1F1; /* Light Grey */
 }
 
@@ -76,5 +105,10 @@ footer p {
 	.navbar-nav li a {
 		height: 70px;
 		line-height: 70px;
+	}
+
+	/* Remove vertical border */
+	.col-sm-3 {
+		border-right: none;
 	}
 }

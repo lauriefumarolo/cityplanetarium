@@ -4,6 +4,10 @@ html, body {
 	padding: 0;
 }
 
+body {
+	padding-top: 90px;
+}
+
 .main-wrapper {
 	position: relative;
 	min-height: 100%;
@@ -32,7 +36,7 @@ html, body {
 }
 
 .parallax-window {
-    min-height: 800px;
+    min-height: 700px;
     background: transparent;
 }
 

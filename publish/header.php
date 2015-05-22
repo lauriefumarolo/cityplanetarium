@@ -10,7 +10,7 @@
 			</button>
 
 			<!-- Site Logo -->
-			<a class="navbar-brand" href="index.php">
+			<a class="navbar-brand" href="./">
 				<img class="img-responsive" src="images/cityPlanetariumLogo.png" alt="City Planetarium Logo" />
 			</a>
 		</div>

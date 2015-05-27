@@ -15,7 +15,9 @@
 <![endif]-->
 <script src="js/jquery-1.11.3.min.js" type="text/javascript"></script>
 <script src="js/bootstrap.min.js" type="text/javascript"></script>
+<script src="plugins/validator/validator.min.js" type="text/javascript"></script>
 <script src="js/scripts.js" type="text/javascript"></script>
+<script src="js/contact_us_scripts.js" type="text/javascript"></script>
 </head>
 <body>
 <div class="main-wrapper">
@@ -30,7 +32,10 @@
 			<div class="col-sm-8 content-col">
 				<div class="clearfix">
 					<h2>Contact Us</h2>
-					<form action="" method="post" class="form-horizontal" role="form" data-toggle="validator">
+					<div class="alert alert-success">
+						<strong>Success!</strong> Thank you for your comments! We will get back to you as soon as possible.
+					</div>
+					<form class="form-horizontal" role="form" data-toggle="validator">
 						<div class="form-group">
 							<label for="inputEmail" class="col-sm-2 control-label">Email</label>
 							<div class="col-sm-10">

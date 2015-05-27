@@ -15,14 +15,14 @@
 
 <hr />
 
-<h4>NASA's History</h4>
+<h4><a href="shows.php">NASA's History</a></h4>
 <p>10:00 pm, 1:00 pm</p>
 
-<h4>To The Moon And Back</h4>
+<h4><a href="shows.php">To The Moon And Back</a></h4>
 <p>12:30 pm, 2:00 pm</p>
 
-<h4>Jupiter</h4>
+<h4><a href="shows.php">Jupiter</a></h4>
 <p>2:30 pm</p>
 
-<h4>Summer Constellations</h4>
+<h4><a href="shows.php">Summer Constellations</a></h4>
 <p>1:00 pm, 4:00 pm</p>

@@ -8,6 +8,7 @@
 <title>City Planetarium</title>
 
 <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
 <link href="css/styles.css" rel="stylesheet" type="text/css">
 
 <!--[if lt IE 9]>
@@ -24,7 +25,12 @@
 		<?php include 'header.php' ?>
 	</header>
 	<div class="container-fluid content-container">
-		<div class="parallax-window row" data-parallax="scroll" data-image-src="images/banner.jpg"></div>
+		<div class="parallax-window row" data-parallax="scroll" data-image-src="images/banner.jpg">
+			<div class="banner-quote">
+				<h1>Mystery creates wonder and wonder is the basis of man's desire to understand.</h1>
+				<h1>-Neil Armstrong</h1>
+			</div>
+		</div>
 
 		<div class="row content-row">
 			<div class="col-sm-3">

@@ -93,7 +93,14 @@ hr {
 	border-top: 1px dotted #AAA;
 }
 
-/* Footer styles */
+/* Stargazer's Club Styles */
+
+.stargazers-info {
+	margin-top: 20px;
+	font-size: 16px;
+}
+
+/* Footer Styles */
 
 /* Should stick to the bottom of the page if the content does not fill the page */
 /* Otherwise, should be at bottom of content and user will have to scroll to see it */

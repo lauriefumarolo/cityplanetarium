@@ -29,7 +29,7 @@ body {
 	height: 90px;
 	line-height: 90px;
 	padding-top: 0;
-	color: #CCC;
+	color: #CCC; /* Light Grey */
 }
 
 /* Make room for the footer */
@@ -48,7 +48,6 @@ body {
 .banner-quote {
 	display: table-cell;
 	vertical-align: middle;
-	width: 100%;
 	padding-left: 20px;
 	padding-right: 20px;
 }
@@ -60,11 +59,6 @@ body {
 	font-family: 'Shadows Into Light', cursive;
 }
 
-.content-row {
-	padding-top: 10px;
-	padding-bottom: 10px;
-}
-
 h2 {
 	margin-bottom: 30px;
 }
@@ -73,14 +67,11 @@ h2 {
 	margin-bottom: 20px;
 }
 
-/* HR and Vertical Divider Styles */
-
-.content-col {
-	border-left: 1px dotted #AAA;
-}
+/* HR Style */
 
 hr {
 	border-top: 1px dotted #AAA;
+	clear: both;
 }
 
 /* Tickets Styles */
@@ -132,6 +123,12 @@ hr {
 	font-size: 16px;
 }
 
+/* Contact Us Styles */
+
+.pull-right {
+	padding-right: 20px;
+}
+
 /* Footer Styles */
 
 /* Should stick to the bottom of the page if the content does not fill the page */
@@ -168,10 +165,5 @@ footer p {
 	.navbar-nav li a {
 		height: 70px;
 		line-height: 70px;
-	}
-
-	/* Remove vertical border */
-	.col-sm-3 {
-		border-right: none;
 	}
 }

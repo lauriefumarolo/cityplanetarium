@@ -19,6 +19,7 @@
 				<li><a href="about_us.php">About Us</a></li>
 				<li><a href="tickets.php">Buy Tickets</a></li>
 				<li><a href="exhibits.php">Exhibits</a></li>
+				<li><a href="shows.php">Shows</a></li>
 				<li><a href="stargazers_club.php">Stargazer's Club</a></li>
 				<li><a href="contact_us.php">Contact Us</a></li>
 			</ul>

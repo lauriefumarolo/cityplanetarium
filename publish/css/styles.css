@@ -73,16 +73,6 @@ h2 {
 	margin-bottom: 20px;
 }
 
-.price {
-	margin-top: 15px;
-	margin-bottom: 15px;
-	font-weight: bold;
-}
-
-.btn {
-	margin-bottom: 15px;
-}
-
 /* HR and Vertical Divider Styles */
 
 .content-col {
@@ -91,6 +81,33 @@ h2 {
 
 hr {
 	border-top: 1px dotted #AAA;
+}
+
+/* Tickets Styles */
+
+.top-space {
+	margin-top: 40px;
+}
+
+.bg-gold, .btn-gold {
+	background-color: #C90;
+	border-color: #C90;
+}
+
+.bg-silver, .btn-silver {
+	background-color: #999;
+	border-color: #999;
+}
+
+.bg-bronze, .btn-bronze {
+	background-color: #960;
+	border-color: #960;
+}
+
+.price {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	font-weight: bold;
 }
 
 /* Stargazer's Club Styles */

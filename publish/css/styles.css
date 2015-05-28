@@ -94,14 +94,29 @@ hr {
 	border-color: #C90;
 }
 
+.btn-gold:hover {
+	background-color: #A37A00;
+	border-color: #A37A00;
+}
+
 .bg-silver, .btn-silver {
 	background-color: #999;
 	border-color: #999;
 }
 
+.btn-silver:hover {
+	background-color: #7A7A7A;
+	border-color: #7A7A7A;
+}
+
 .bg-bronze, .btn-bronze {
 	background-color: #960;
 	border-color: #960;
+}
+
+.btn-bronze:hover {
+	background-color: #7A5200;
+	border-color: #7A5200;
 }
 
 .price {

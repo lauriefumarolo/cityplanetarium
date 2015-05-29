@@ -24,11 +24,19 @@
 		<?php include 'header.php' ?>
 	</header>
 	<div class="container-fluid content-container">
-		<h2>Stargazer's Club</h2>
-		<img class="img-responsive" src="images/stargazers_club.jpg" alt="Night Sky" />
-		<p class="stargazers-info">The City Planetarium Stargazer's Club is a members-only club that meets once a month to study the constellations in the night sky. An employee of the planetarium is always present to point out the current constellations, stars, and planets. Food and drink is provided!</p>
-		<p class="stargazers-info">Registration is open to people of all ages! Sign up today!</p>
-		<button type="button" class="btn btn-primary stargazers-info">Become a Member</button>
+		<div class="clearfix">
+			<h2>Stargazer's Club</h2>
+		</div>
+		<div class="row">
+			<div class="col-sm-6">
+				<img class="img-responsive" src="images/stargazers_club.jpg" alt="Night Sky" />
+			</div>
+			<div class="col-sm-6">
+				<p class="stargazers-info">The City Planetarium Stargazer's Club is a members-only club that meets once a month to study the constellations in the night sky. An employee of the planetarium is always present to point out the current constellations, stars, and planets. Food and drink is provided!</p>
+				<p class="stargazers-info">Registration is open to people of all ages! Sign up today!</p>
+				<button type="button" class="btn btn-primary stargazers-info">Become a Member</button>
+			</div>
+		</div>
 	</div>
 	<footer>
 		<?php include 'footer.php' ?>

@@ -7,8 +7,9 @@
 
 <title>City Planetarium</title>
 
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet" type="text/css">
 <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
-<link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
 <link href="css/styles.css" rel="stylesheet" type="text/css">
 
 <!--[if lt IE 9]>
@@ -18,8 +19,9 @@
 <script src="js/bootstrap.min.js" type="text/javascript"></script>
 <script src="plugins/parallax/parallax.min.js" type="text/javascript"></script>
 <script src="js/scripts.js" type="text/javascript"></script>
+<script src="js/index_scripts.js" type="text/javascript"></script>
 </head>
-<body>
+<body class="index-body">
 <div class="main-wrapper">
 	<header>
 		<?php include 'header.php' ?>
@@ -27,8 +29,8 @@
 	<div class="container-fluid content-container">
 		<div class="parallax-window row" data-parallax="scroll" data-image-src="images/banner.jpg">
 			<div class="banner-quote">
-				<h1>Mystery creates wonder and wonder is the basis of man's desire to understand.</h1>
-				<h1>-Neil Armstrong</h1>
+				<h1 class="text-center">Mystery creates wonder and wonder is the basis of man's desire to understand.</h1>
+				<h1 class="text-center">-Neil Armstrong</h1>
 			</div>
 		</div>
 		<div class="clearfix">

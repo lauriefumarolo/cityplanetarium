@@ -104,10 +104,6 @@ hr {
 
 /* Tickets Styles */
 
-.top-space {
-	margin-top: 40px;
-}
-
 .bg-gold, .btn-gold {
 	background-color: #C90;
 	border-color: #C90;
@@ -138,9 +134,11 @@ hr {
 	border-color: #7A5200;
 }
 
+.ticket-col p, .ticket-col .btn {
+	margin-bottom: 20px;
+}
+
 .price {
-	margin-top: 15px;
-	margin-bottom: 15px;
 	font-weight: bold;
 }
 

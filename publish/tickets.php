@@ -23,7 +23,7 @@
 	<header>
 		<?php include 'header.php' ?>
 	</header>
-	<div class="container-fluid content-container">
+	<div class="container-fluid content-container side-margins">
 		<div class="clearfix">
 			<h2>Admission &amp; Passes</h2>
 		</div>

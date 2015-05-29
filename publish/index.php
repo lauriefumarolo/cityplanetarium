@@ -33,10 +33,10 @@
 				<h1 class="text-center">-Neil Armstrong</h1>
 			</div>
 		</div>
-		<div class="clearfix">
+		<div class="clearfix side-margins">
 			<h2>Visit City Planetarium</h2>
 		</div>
-		<div class="row">
+		<div class="row side-margins-index">
 			<div class="col-sm-4">
 				<img class="img-responsive" src="images/planetarium.jpg" alt="City Planetarium" />
 			</div>
@@ -46,11 +46,11 @@
 				<p>No matter what your interest is, our website will provide you with every resource you need to plan your visit.</p>
 			</div>
 		</div>
-		<div class="clearfix">
+		<div class="clearfix side-margins">
 			<hr />
 			<h2>New Horizons Exhibit</h2>
 		</div>
-		<div class="row">
+		<div class="row side-margins-index">
 			<div class="col-sm-4">
 				<img class="img-responsive" src="images/pluto.jpg" alt="New Horizons Exhibit" />
 			</div>

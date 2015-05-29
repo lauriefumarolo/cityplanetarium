@@ -24,6 +24,19 @@ h2 {
 	margin-bottom: 30px;
 }
 
+.img-top-margin {
+	margin-top: 30px;
+}
+
+.side-margins {
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+.side-margins-index {
+	margin-left: 15px;
+}
+
 /* Make room for the footer */
 
 .main-wrapper {

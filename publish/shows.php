@@ -23,7 +23,7 @@
 	<header>
 		<?php include 'header.php' ?>
 	</header>
-	<div class="container-fluid content-container">
+	<div class="container-fluid content-container side-margins">
 		<div class="clearfix">
 			<h2>Shows</h2>
 		</div>
@@ -42,7 +42,7 @@
 		</div>
 		<div class="row">
 			<div class="col-sm-4">
-				<img class="img-responsive" src="images/moon.jpg" alt="Moon Landing" />
+				<img class="img-responsive img-top-margin" src="images/moon.jpg" alt="Moon Landing" />
 			</div>
 			<div class="col-sm-8">
 				<h4>To The Moon And Back</h4>
@@ -55,7 +55,7 @@
 		</div>
 		<div class="row">
 			<div class="col-sm-4">
-				<img class="img-responsive" src="images/jupiter.jpg" alt="Jupiter" />
+				<img class="img-responsive img-top-margin" src="images/jupiter.jpg" alt="Jupiter" />
 			</div>
 			<div class="col-sm-8">
 				<h4>Jupiter</h4>
@@ -68,7 +68,7 @@
 		</div>
 		<div class="row">
 			<div class="col-sm-4">
-				<img class="img-responsive" src="images/cygnus.jpg" alt="Cygnus" />
+				<img class="img-responsive img-top-margin" src="images/cygnus.jpg" alt="Cygnus" />
 			</div>
 			<div class="col-sm-8">
 				<h4>Summer Constellations</h4>

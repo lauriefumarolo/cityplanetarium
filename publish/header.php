@@ -11,7 +11,7 @@
 
 			<!-- Site Logo -->
 			<a class="navbar-brand" href="./">
-				<img class="img-responsive" src="images/cityPlanetariumLogo.png" alt="City Planetarium Logo" />
+				<img src="images/cityPlanetariumLogo.png" alt="City Planetarium Logo" />
 			</a>
 		</div>
 		<div class="collapse navbar-collapse" id="main-nav">

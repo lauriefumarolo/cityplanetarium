@@ -23,7 +23,7 @@
 	<header>
 		<?php include 'header.php' ?>
 	</header>
-	<div class="container-fluid content-container">
+	<div class="container-fluid content-container side-margins">
 		<h2>About Us</h2>
 		<img class="img-responsive" src="images/planetarium.jpg" alt="City Planetarium" />
 		<h4>Illinois' Largest Planetarium!</h4>

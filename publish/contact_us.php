@@ -25,7 +25,7 @@
 	<header>
 		<?php include 'header.php' ?>
 	</header>
-	<div class="container-fluid content-container">
+	<div class="container-fluid content-container side-margins">
 		<h2>Contact Us</h2>
 		<div class="alert alert-success">
 			<strong>Success!</strong> Thank you for your comments! We will get back to you as soon as possible.

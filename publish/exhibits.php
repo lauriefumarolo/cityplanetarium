@@ -23,7 +23,7 @@
 	<header>
 		<?php include 'header.php' ?>
 	</header>
-	<div class="container-fluid content-container">
+	<div class="container-fluid content-container side-margins">
 		<div class="clearfix">
 			<h2>Exhibits</h2>
 		</div>
@@ -42,7 +42,7 @@
 		</div>
 		<div class="row">
 			<div class="col-sm-4">
-				<img class="img-responsive" src="images/spaceStation.jpg" alt="International Space Station" />
+				<img class="img-responsive img-top-margin" src="images/spaceStation.jpg" alt="International Space Station" />
 			</div>
 			<div class="col-sm-8">
 				<h4>International Space Station</h4>
@@ -55,7 +55,7 @@
 		</div>
 		<div class="row">
 			<div class="col-sm-4">
-				<img class="img-responsive" src="images/sallyRide.jpg" alt="Sally Ride" width="200px" />
+				<img class="img-responsive img-top-margin" src="images/sallyRide.jpg" alt="Sally Ride" width="200px" />
 			</div>
 			<div class="col-sm-8">
 				<h4>Sally Ride</h4>
@@ -68,7 +68,7 @@
 		</div>
 		<div class="row">
 			<div class="col-sm-4">
-				<img class="img-responsive" src="images/halleysComet.jpg" alt="Halley's Comet" width="300px" />
+				<img class="img-responsive img-top-margin" src="images/halleysComet.jpg" alt="Halley's Comet" width="300px" />
 			</div>
 			<div class="col-sm-8">
 				<h4>Halley's Comet</h4>

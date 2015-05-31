@@ -18,7 +18,6 @@
 <script src="js/jquery-1.11.3.min.js" type="text/javascript"></script>
 <script src="js/bootstrap.min.js" type="text/javascript"></script>
 <script src="plugins/parallax/parallax.min.js" type="text/javascript"></script>
-<script src="js/scripts.js" type="text/javascript"></script>
 <script src="js/index_scripts.js" type="text/javascript"></script>
 </head>
 <body class="index-body">

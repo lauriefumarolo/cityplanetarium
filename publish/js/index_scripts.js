@@ -1,6 +1,6 @@
 $(document).ready(function() {
 	// on the home page, set the navbar to be transparent initially
-	$("nav").addClass("navbar-main");
+	$("nav").addClass("navbar-index");
 
 	// make the navbar transparent unless the user has scrolled down to the top of the banner quote
 	// if the user scrolls back up from that point, make the navbar transparent again
@@ -12,9 +12,9 @@ $(document).ready(function() {
 		}
 
 		if ($(this).scrollTop() > 180) {
-			$("nav").removeClass("navbar-main");
+			$("nav").removeClass("navbar-index");
 		} else {
-			$("nav").addClass("navbar-main");
+			$("nav").addClass("navbar-index");
 		}
 	});
 });

@@ -41,7 +41,7 @@
 				<img class="img-responsive img-shows-exhibits" src="images/planetarium.jpg" alt="City Planetarium" />
 			</div>
 			<div class="col-sm-8">
-				<h3 class="top-bottom-margin">Illinois' Largest Planetarium!</h3>
+				<h3>Illinois' Largest Planetarium!</h3>
 				<p>City Planetarium was built in 1977 for the purpose of presenting educational and entertaining shows about astronomy and the night sky. Our recently renovated Star Theater seats 350 people and contains the most advanced technology for giving our viewers the clearest images.</p>
 				<p>No matter what your interest is, our website will provide you with every resource you need to plan your visit.</p>
 			</div>
@@ -55,7 +55,7 @@
 				<img class="img-responsive img-shows-exhibits" src="images/pluto.jpg" alt="New Horizons Exhibit" />
 			</div>
 			<div class="col-sm-8">
-				<h3 class="top-bottom-margin">Pluto</h3>
+				<h3>Pluto</h3>
 				<p>New Horizons has launched and is nearing its destination, Pluto. Come learn all about the probe, its mission, and the mysterious dwarf-planet.</p>
 				<p>Learn more about <a href="exhibits.php">New Horizons</a>.</p>
 			</div>

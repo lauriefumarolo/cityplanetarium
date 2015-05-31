@@ -34,9 +34,25 @@ h2 {
 	margin-right: 30px;
 }
 
-.top-bottom-margin {
+h3, .top-bottom-margin {
 	margin-top: 10px;
 	margin-bottom: 30px;
+}
+
+.about-us-subtitle {
+	margin-top: 30px;
+}
+
+/* HR Style */
+
+hr {
+	margin-top: 0;
+	border-top: 1px dotted #AAA;
+	clear: both;
+}
+
+.margin-hr {
+	margin-top: 30px;
 }
 
 /* Make room for the footer */
@@ -108,18 +124,6 @@ h2 {
 	color: #FEFDFA; /* Light Yellow Grey */
 	font-size: 40px;
 	font-family: "Open Sans Condensed", sans-serif;
-}
-
-/* HR Style */
-
-hr {
-	margin-top: 0;
-	border-top: 1px dotted #AAA;
-	clear: both;
-}
-
-.margin-hr {
-	margin-top: 30px;
 }
 
 /* Tickets Styles */
@@ -220,6 +224,10 @@ footer a:hover, footer a:active {
 	.navbar-nav li a {
 		height: 70px;
 		line-height: 70px;
+	}
+
+	h3 {
+		margin-top: 30px;
 	}
 
 	/* Adjust footer height */

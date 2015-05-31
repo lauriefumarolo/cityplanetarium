@@ -26,7 +26,7 @@
 	<div class="container-fluid content-container side-margins">
 		<h2>About Us</h2>
 		<img class="img-responsive" src="images/planetarium.jpg" alt="City Planetarium" />
-		<h3 class="top-bottom-margin">Illinois' Largest Planetarium!</h3>
+		<h3 class="about-us-subtitle">Illinois' Largest Planetarium!</h3>
 		<p>City Planetarium was built in 1977 for the purpose of presenting educational and entertaining shows about astronomy and the night sky. Our recently renovated Star Theater seats 350 people and contains the most advanced technology for giving our viewers the clearest images.</p>
 		<p>No matter what your interest is, our website will provide you with every resource you need to plan your visit.</p>
 		<hr class="margin-hr" />

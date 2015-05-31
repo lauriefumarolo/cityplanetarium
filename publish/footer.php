@@ -13,7 +13,7 @@
 		<div class="col-sm-4">
 			<p class="small"><a href="about_us.php">About Us</a></p>
 			<p class="small"><a href="contact_us.php">Contact Us</a></p>
-			<p class="small"><a href="#">Acknowledgments</a></p>
+			<p class="small"><a href="acknowledgments.php">Acknowledgments</a></p>
 		</div>
 	</div>
 	<div class="row lower-footer">

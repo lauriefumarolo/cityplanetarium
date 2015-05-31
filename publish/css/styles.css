@@ -39,8 +39,12 @@ h3, .top-bottom-margin {
 	margin-bottom: 30px;
 }
 
-.about-us-subtitle {
+.h3-margin-top {
 	margin-top: 30px;
+}
+
+.margin-bottom {
+	margin-bottom: 30px;
 }
 
 /* HR Style */

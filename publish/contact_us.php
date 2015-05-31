@@ -30,24 +30,18 @@
 		<div class="alert alert-success">
 			<strong>Success!</strong> Thank you for your comments! We will get back to you as soon as possible.
 		</div>
-		<form class="form-horizontal" role="form" data-toggle="validator">
+		<form role="form" data-toggle="validator">
 			<div class="form-group">
-				<label for="inputEmail" class="col-sm-2 control-label">Email</label>
-				<div class="col-sm-10">
-					<input type="email" id="inputEmail" class="form-control" placeholder="Email" data-error="This email address is invalid." required>
-					<div class="help-block with-errors"></div>
-				</div>
+				<label for="inputEmail">Email</label>
+				<input type="email" id="inputEmail" class="form-control" placeholder="Email" data-error="This email address is invalid." required>
+				<div class="help-block with-errors"></div>
 			</div>
 			<div class="form-group">
-				<label for="comments" class="col-sm-2 control-label">Comments</label>
-				<div class="col-sm-10">
-					<textarea id="comments" class="form-control" rows="5" placeholder="Comments" required></textarea>
-					<div class="help-block with-errors"></div>
-				</div>
+				<label for="comments">Comments</label>
+				<textarea id="comments" class="form-control" rows="5" placeholder="Comments" required></textarea>
+				<div class="help-block with-errors"></div>
 			</div>
-			<div class="form-group pull-right">
-				<button type="submit" class="btn btn-primary">Submit</button>
-			</div>
+			<button type="submit" class="btn btn-primary pull-right">Submit</button>
 		</form>
 		<hr />
 		<h2>Come Visit Us</h2>

@@ -5,6 +5,9 @@
 <!-- Prevents zoomed-out look on mobile devices -->
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
+<!-- Favicon -->
+<?php include 'favicon_links.php' ?>
+
 <title>City Planetarium | Stargazer's Club</title>
 
 <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet" type="text/css">

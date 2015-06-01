@@ -226,6 +226,10 @@ footer a:hover, footer a:active {
 	color: red;
 }
 
+.footer-hr {
+	display: none;
+}
+
 /* Media Queries */
 
 @media (max-width: 767px) {
@@ -247,6 +251,13 @@ footer a:hover, footer a:active {
 
 	footer {
 		height: 365px;
+	}
+
+	/* Dividers for footer columns */
+	.footer-hr {
+		display: block;
+		width: 10%;
+		margin-top: 30px;
 	}
 }
 

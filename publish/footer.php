@@ -6,11 +6,13 @@
 			<p class="small">10:00am - 8:00pm SAT-SUN</p>
 		</div>
 		<div class="col-sm-4">
+			<hr class="footer-hr" />
 			<p class="small">Address:</p>
 			<p class="small">1300 S Lake Shore Drive</p>
 			<p class="small">Chicago, <abbr title="Illinois">IL</abbr> 60605</p>
 		</div>
 		<div class="col-sm-4">
+			<hr class="footer-hr" />
 			<p class="small"><a href="about_us.php">About Us</a></p>
 			<p class="small"><a href="contact_us.php">Contact Us</a></p>
 			<p class="small"><a href="acknowledgments.php">Acknowledgments</a></p>

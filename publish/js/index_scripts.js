@@ -1,7 +1,7 @@
 $(document).ready(function() {
 	// if the window is not mobile-size and the user is scrolled above the banner quote, show transparent navbar
 	function addRemoveTransparent() {
-		if ($(window).width() > 753 && $(this).scrollTop() <= 180) {
+		if ($(window).width() > 752 && $(this).scrollTop() <= 180) {
 			$("nav").addClass("navbar-index");
 		} else {
 			$("nav").removeClass("navbar-index");

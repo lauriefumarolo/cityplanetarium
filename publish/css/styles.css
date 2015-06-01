@@ -72,6 +72,11 @@ hr {
 
 /* Navbar Styles - need a taller navbar because of logo */
 
+.navbar {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
 /* For the home page, make navbar transparent until user scrolls down to the top of the banner quote */
 .navbar-index {
 	background-color: transparent;

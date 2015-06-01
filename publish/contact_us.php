@@ -23,6 +23,7 @@
 <script src="js/contact_us_scripts.js" type="text/javascript"></script>
 <script src="https://maps.googleapis.com/maps/api/js" type="text/javascript"></script>
 <script src="js/map_scripts.js" type="text/javascript"></script>
+<?php include 'analytics.php' ?>
 </head>
 <body>
 <div class="main-wrapper">

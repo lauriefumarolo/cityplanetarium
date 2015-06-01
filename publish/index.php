@@ -22,6 +22,7 @@
 <script src="js/bootstrap.min.js" type="text/javascript"></script>
 <script src="plugins/parallax/parallax.min.js" type="text/javascript"></script>
 <script src="js/index_scripts.js" type="text/javascript"></script>
+<?php include 'analytics.php' ?>
 </head>
 <body class="index-body">
 <div class="main-wrapper">

@@ -89,7 +89,6 @@ hr {
 .navbar-toggle {
 	margin-top: 26px;
 	margin-bottom: 26px;
-	background-color: #222; /* Dark Grey */
 }
 
 .navbar-nav li a {
@@ -111,7 +110,8 @@ hr {
 
 .parallax-window {
 	display: table;
-    min-height: 650px;
+	min-width: 102%;
+    height: 650px;
     background: transparent;
 }
 
@@ -230,7 +230,6 @@ footer a:hover, footer a:active {
 
 @media (max-width: 767px) {
 	/* Adjust navbar item height now that the items are no longer in the navbar */
-
 	.navbar-nav li a {
 		height: 70px;
 		line-height: 70px;

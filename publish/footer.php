@@ -20,7 +20,7 @@
 	</div>
 	<div class="row lower-footer">
 		<div class="col-sm-12">
-			<p class="small">Copyright &copy;2015 Laurie Fumarolo. All Rights Reserved.</p>
+			<p class="small">Copyright &copy;2016 Laurie Fumarolo. All Rights Reserved.</p>
 			<h5 class="text-danger">NOT A REAL BUSINESS. FOR EDUCATIONAL PURPOSES ONLY.</h5>
 		</div>
 	</div>

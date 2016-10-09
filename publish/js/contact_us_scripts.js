@@ -8,7 +8,7 @@ $(document).ready(function() {
 			$('.alert').hide();
 		} else {
 			e.preventDefault();
-			
+
 			// user submitted valid form
 			// show success message
 			$('.alert').show();

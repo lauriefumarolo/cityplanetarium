@@ -115,7 +115,7 @@ hr {
 
 .parallax-window {
 	display: table;
-	min-width: 102%;
+	min-width: 103%;
     height: 650px;
     background: transparent;
 }
@@ -142,8 +142,8 @@ hr {
 	border-color: #C90;
 }
 
-.btn-gold:hover {
-	background-color: #A37A00;
+.btn-gold:hover, .btn-gold:focus {
+	background-color: #A37A00 !important;
 	border-color: #A37A00;
 }
 
@@ -152,8 +152,8 @@ hr {
 	border-color: #999;
 }
 
-.btn-silver:hover {
-	background-color: #7A7A7A;
+.btn-silver:hover, .btn-silver:focus {
+	background-color: #7A7A7A !important;
 	border-color: #7A7A7A;
 }
 
@@ -162,8 +162,8 @@ hr {
 	border-color: #960;
 }
 
-.btn-bronze:hover {
-	background-color: #7A5200;
+.btn-bronze:hover, .btn-bronze:focus {
+	background-color: #7A5200 !important;
 	border-color: #7A5200;
 }
 

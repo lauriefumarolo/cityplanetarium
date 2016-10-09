@@ -1,25 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8" />
-<!-- Prevents zoomed-out look on mobile devices -->
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-
-<!-- Favicon -->
-<?php include 'favicon_links.php' ?>
-
-<title>City Planetarium | Buy Tickets</title>
-
-<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet" type="text/css">
-<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
-<link href="css/styles.css" rel="stylesheet" type="text/css">
-
-<!--[if lt IE 9]>
-<script src="js/html5shiv.min.js"></script>
-<![endif]-->
-<script src="js/jquery-1.11.3.min.js" type="text/javascript"></script>
-<script src="js/bootstrap.min.js" type="text/javascript"></script>
-<?php include 'analytics.php' ?>
+	<title>City Planetarium | Buy Tickets</title>
+	<?php include 'head_section.php' ?>
+	<?php include 'analytics.php' ?>
 </head>
 <body>
 <div class="main-wrapper">
